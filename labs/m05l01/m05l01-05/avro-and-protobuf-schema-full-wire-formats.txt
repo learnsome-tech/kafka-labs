@@ -1,0 +1,10 @@
+// Avro schema
+{"type": "record", "name": "Order",
+ "fields": [{"name": "id",    "type": "int"},
+            {"name": "total", "type": "float"}]}
+
+// Protobuf message definition
+message Order {
+  int32 id    = 1;
+  float total = 2;
+}

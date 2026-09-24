@@ -1,0 +1,12 @@
+...
+0* m01l02-broker 9092
+...
+CLUSTER HEALTH OVERVIEW
+=======================
+Healthy: true
+Unhealthy reasons: []
+Controller ID: 0
+All nodes: [0]
+Nodes down: []
+Nodes in recovery mode: []
+...

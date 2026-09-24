@@ -1,0 +1,1 @@
+no-batch: sent ten records individually

@@ -1,0 +1,15 @@
+# Default: murmur2(key_bytes) % num_partitions
+# Custom: pass a callable to the partitioner arg
+
+from kafka import KafkaProducer
+
+def region_router(key, partitions, available):
+    # Route EU keys to partition 0, others to partition 1
+    if key and key[:2] == b'eu':
+        return partitions[0]
+    return partitions[1]
+
+producer = KafkaProducer(
+    bootstrap_servers='broker:9092',
+    partitioner=region_router
+)

@@ -1,0 +1,4 @@
+...
+ table public.products: INSERT: id[integer]:1 item[text]:'widget'
+ table public.products: UPDATE: id[integer]:1 item[text]:'gadget'
+(2 rows)

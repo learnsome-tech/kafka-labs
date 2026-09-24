@@ -1,0 +1,6 @@
+original offset 0
+original offset 1
+original offset 2
+retry offset 3
+retry offset 4
+retry offset 5

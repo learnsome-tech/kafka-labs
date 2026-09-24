@@ -1,0 +1,7 @@
+...
+rebalance: got partition 0
+rebalance: got partition 1
+rebalance: got partition 2
+p=0 o=0 v=a
+p=1 o=0 v=b
+p=2 o=0 v=c

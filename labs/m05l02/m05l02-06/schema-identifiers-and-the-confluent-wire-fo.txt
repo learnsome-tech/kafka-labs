@@ -1,0 +1,9 @@
+// Confluent wire format (5-byte prefix)
+byte 0:      0x00  (magic byte)
+bytes 1-4:   schema_id as big-endian int32
+bytes 5+:    Avro or JSON encoded payload
+
+// Python example (schemaless prefix)
+import struct
+prefix = struct.pack('>bI', 0, schema_id)  # 5 bytes
+wire   = prefix + encoded_payload

@@ -1,0 +1,4 @@
+header: content-type=application/json
+header: schema-version=1
+type=order.created ver=1
+payload={'id': 42, 'total': 99}

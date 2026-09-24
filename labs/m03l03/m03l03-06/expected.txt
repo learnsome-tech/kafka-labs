@@ -1,0 +1,6 @@
+...
+p=0 o=0 v=w
+p=0 o=1 v=x
+p=0 o=2 v=y
+p=0 o=3 v=z
+offset committed

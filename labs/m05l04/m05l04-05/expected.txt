@@ -1,0 +1,1 @@
+v2: sent 2 records with currency field

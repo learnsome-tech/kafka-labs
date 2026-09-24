@@ -1,0 +1,3 @@
+TOPIC          STATUS
+m04l04-orders  OK
+m04l04-dlq     OK

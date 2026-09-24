@@ -1,0 +1,10 @@
+m07l03-b3
+CLUSTER
+=======
+...
+BROKERS
+=======
+ID HOST PORT
+0* m07l03-b1 9092
+1 m07l03-b2 9092
+2 m07l03-b3 9092

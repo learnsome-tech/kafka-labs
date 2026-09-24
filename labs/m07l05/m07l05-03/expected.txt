@@ -1,0 +1,8 @@
+...
+scenario                    better fit
+request needs one reply     HTTP or gRPC
+task done once per message  RabbitMQ or SQS
+shared mutable state        database table
+audit or replay needed      Kafka
+fan-out to many consumers   Kafka
+ordered stream per entity   Kafka

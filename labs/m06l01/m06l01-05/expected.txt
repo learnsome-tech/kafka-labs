@@ -1,0 +1,2 @@
+event published to kafka
+error: database unreachable - row not inserted

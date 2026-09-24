@@ -1,0 +1,7 @@
+...
+processed p=0 o=0 v=p
+processed p=0 o=1 v=q
+processed p=0 o=2 v=r
+processed p=0 o=3 v=s
+processed p=0 o=4 v=t
+processed p=0 o=5 v=u
