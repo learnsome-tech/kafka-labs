@@ -2,9 +2,9 @@
   "lab": "m07l03-03",
   "lesson": "m07l03",
   "title": "Stop one broker and confirm the topic stays up",
-  "mode": "read-along",
-  "runner": null,
-  "command": null,
+  "mode": "checker",
+  "runner": "bash-syntax",
+  "command": "bash -n session.sh",
   "main": "session.sh",
   "files": [
     "run.sh",
@@ -15,6 +15,8 @@
   "stdin": null,
   "expected": null,
   "grading": null,
-  "requires": [],
-  "note": "It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed."
+  "requires": [
+    "bash"
+  ],
+  "note": null
 }

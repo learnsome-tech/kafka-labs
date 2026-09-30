@@ -1,7 +1,7 @@
 # m07l03-03 · Stop one broker and confirm the topic stays up
 
 **Lesson:** [Losing A Broker](https://learnsome.tech/learn/kafka-course/m07l03) (lesson 7.3, module 7: Operating A Cluster) · Pro  
-**Check:** Read along
+**Check:** Checker
 
 ## Goal
 
@@ -19,11 +19,11 @@ In the lesson: Stop broker three; the container name echoes back as confirmation
 
 ## Steps
 
-1. Read `starter/session.sh` alongside the lesson.
-2. On a machine that has what it needs, the lesson ran it with:
+1. Go to the starter: `cd labs/m07l03/m07l03-03/starter`
+2. Read `session.sh`.
+3. The session types these commands, in order:
 
    ```sh
-   bash setup.sh >/dev/null 2>&1
    docker stop m07l03-b3
    sleep 10
    B="docker exec -i m07l03-b1"
@@ -31,12 +31,16 @@ In the lesson: Stop broker three; the container name echoes back as confirmation
    echo k1:v1 | $B rpk topic produce m07l03-orders -f '%k:%v\n'
    $B timeout 30 rpk topic consume m07l03-orders -n1 -f '%k %v\n'
    ```
+4. Edit `session.sh` and check it: `bash -n session.sh`.
+5. Check it from the repository root: `./check m07l03-03`.
 
 ## How to check
 
-**Read along.** It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed.
+`./check m07l03-03` copies `starter/` into a scratch directory and runs `bash -n session.sh` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-There is nothing to check: `./check m07l03-03` says so and moves on.
+**Read along, with a syntax check.** Running it needs Docker and the Kafka broker containers the course starts, which the lab sandbox does not have, so the site shows it with its recorded output.
+
+This is a checker lab: it checks that the shell script parses (`bash -n`), without running it. The site shows the checker's report without grading; `./check` passes when the checker finds no errors.
 
 ---
 

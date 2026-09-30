@@ -8,10 +8,10 @@ Module 4: Delivery Guarantees And Transactions · lesson 4.2 · Pro · [Open the
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m04l02-02](m04l02-02/) | Broker up, topic ready for deduplication demo | Read along |
-| [m04l02-03](m04l02-03/) | Producer: five records with two duplicate event ids | Read along |
-| [m04l02-05](m04l02-05/) | Deduplicating consumer with a persistent seen-set | Read along |
-| [m04l02-08](m04l02-08/) | Tear down the lesson environment | Read along |
+| [m04l02-02](m04l02-02/) | Broker up, topic ready for deduplication demo | Checker |
+| [m04l02-03](m04l02-03/) | Producer: five records with two duplicate event ids | Checker |
+| [m04l02-05](m04l02-05/) | Deduplicating consumer with a persistent seen-set | Checker |
+| [m04l02-08](m04l02-08/) | Tear down the lesson environment | Checker |
 
 ## Exercises
 

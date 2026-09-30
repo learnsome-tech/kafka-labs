@@ -1,7 +1,7 @@
 # m07l05-02 · Show the cost of running three broker containers
 
 **Lesson:** [When Kafka Is The Wrong Tool](https://learnsome.tech/learn/kafka-course/m07l05) (lesson 7.5, module 7: Operating A Cluster) · Pro  
-**Check:** Read along
+**Check:** Checker
 
 ## Goal
 
@@ -17,18 +17,18 @@ In the lesson: The startup script is the same three-broker cluster pattern, but 
 
 ## Steps
 
-1. Read `starter/show-cost.sh` alongside the lesson.
-2. On a machine that has what it needs, the lesson ran it with:
-
-   ```sh
-   bash show-cost.sh
-   ```
+1. Go to the starter: `cd labs/m07l05/m07l05-02/starter`
+2. Read `show-cost.sh`.
+3. Edit `show-cost.sh` and check it: `bash -n show-cost.sh`.
+4. Check it from the repository root: `./check m07l05-02`.
 
 ## How to check
 
-**Read along.** It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed.
+`./check m07l05-02` copies `starter/` into a scratch directory and runs `bash -n show-cost.sh` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-There is nothing to check: `./check m07l05-02` says so and moves on.
+**Read along, with a syntax check.** Running it needs Docker and the Kafka broker containers the course starts, which the lab sandbox does not have, so the site shows it with its recorded output.
+
+This is a checker lab: it checks that the shell script parses (`bash -n`), without running it. The site shows the checker's report without grading; `./check` passes when the checker finds no errors.
 
 ---
 

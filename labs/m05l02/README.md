@@ -8,12 +8,12 @@ Module 5: Schemas, Serialisation And Evolution · lesson 5.2 · Pro · [Open the
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m05l02-02](m05l02-02/) | Start the broker and create the orders topic | Read along |
+| [m05l02-02](m05l02-02/) | Start the broker and create the orders topic | Checker |
 | [m05l02-03](m05l02-03/) | The JSON Schema format and what it describes | Read along |
-| [m05l02-04](m05l02-04/) | Register the schema with the registry | Read along |
-| [m05l02-05](m05l02-05/) | List subjects and retrieve the registered schema | Read along |
+| [m05l02-04](m05l02-04/) | Register the schema with the registry | Checker |
+| [m05l02-05](m05l02-05/) | List subjects and retrieve the registered schema | Checker |
 | [m05l02-06](m05l02-06/) | Schema identifiers and the Confluent wire format | Read along |
-| [m05l02-08](m05l02-08/) | Remove the broker and network | Read along |
+| [m05l02-08](m05l02-08/) | Remove the broker and network | Checker |
 
 ## Exercises
 

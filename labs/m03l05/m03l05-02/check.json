@@ -2,9 +2,9 @@
   "lab": "m03l05-02",
   "lesson": "m03l05",
   "title": "Start the broker and network",
-  "mode": "read-along",
-  "runner": null,
-  "command": null,
+  "mode": "checker",
+  "runner": "bash-syntax",
+  "command": "bash -n setup.sh",
   "main": "setup.sh",
   "files": [
     "run.sh",
@@ -13,6 +13,8 @@
   "stdin": null,
   "expected": null,
   "grading": null,
-  "requires": [],
-  "note": "It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed."
+  "requires": [
+    "bash"
+  ],
+  "note": null
 }

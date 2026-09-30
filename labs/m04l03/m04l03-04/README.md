@@ -1,7 +1,7 @@
 # m04l03-04 · Read-committed consumer sees the three records
 
 **Lesson:** [Transactions And Exactly Once Semantics](https://learnsome.tech/learn/kafka-course/m04l03) (lesson 4.3, module 4: Delivery Guarantees And Transactions) · Pro  
-**Check:** Read along
+**Check:** Checker
 
 ## Goal
 
@@ -20,19 +20,18 @@ In the lesson: The consumer sets isolation-level to read-committed, which tells 
 
 ## Steps
 
-1. Read `starter/reader.py` alongside the lesson.
-2. On a machine that has what it needs, the lesson ran it with:
-
-   ```sh
-   bash setup.sh >/dev/null 2>&1
-   docker run --rm --network m04l03-net -v "$PWD:/app" m04l03-client python reader.py
-   ```
+1. Go to the starter: `cd labs/m04l03/m04l03-04/starter`
+2. Read `reader.py`.
+3. Edit `reader.py` and check it: `python3 -m py_compile reader.py`.
+4. Check it from the repository root: `./check m04l03-04`.
 
 ## How to check
 
-**Read along.** It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed.
+`./check m04l03-04` copies `starter/` into a scratch directory and runs `python3 -m py_compile reader.py` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-There is nothing to check: `./check m04l03-04` says so and moves on.
+**Read along, with a syntax check.** Running it needs Docker and the Kafka broker containers the course starts, which the lab sandbox does not have, so the site shows it with its recorded output.
+
+This is a checker lab: it checks that the Python program compiles (`python3 -m py_compile`), without running it. The site shows the checker's report without grading; `./check` passes when the checker finds no errors.
 
 ---
 

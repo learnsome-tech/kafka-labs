@@ -8,11 +8,11 @@ Module 1: The Log: Topics, Partitions And Offsets · lesson 1.3 · Free · [Open
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m01l03-02](m01l03-02/) | Start a network and broker | Read along |
-| [m01l03-03](m01l03-03/) | Create a three-partition topic and produce keyed records | Read along |
-| [m01l03-04](m01l03-04/) | Consume the keyed records | Read along |
-| [m01l03-05](m01l03-05/) | Describe the topic partition layout | Read along |
-| [m01l03-07](m01l03-07/) | Remove the broker and network | Read along |
+| [m01l03-02](m01l03-02/) | Start a network and broker | Checker |
+| [m01l03-03](m01l03-03/) | Create a three-partition topic and produce keyed records | Checker |
+| [m01l03-04](m01l03-04/) | Consume the keyed records | Checker |
+| [m01l03-05](m01l03-05/) | Describe the topic partition layout | Checker |
+| [m01l03-07](m01l03-07/) | Remove the broker and network | Checker |
 
 ## Exercises
 

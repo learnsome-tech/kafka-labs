@@ -8,11 +8,11 @@ Module 7: Operating A Cluster · lesson 7.4 · Pro · [Open the lesson](https://
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m07l04-02](m07l04-02/) | Start a cluster with a three-partition topic | Read along |
-| [m07l04-03](m07l04-03/) | Produce five records ahead of the consumer | Read along |
-| [m07l04-04](m07l04-04/) | Consume two records and commit the group offset | Read along |
-| [m07l04-05](m07l04-05/) | Measure lag and add partitions | Read along |
-| [m07l04-07](m07l04-07/) | Remove the cluster | Read along |
+| [m07l04-02](m07l04-02/) | Start a cluster with a three-partition topic | Checker |
+| [m07l04-03](m07l04-03/) | Produce five records ahead of the consumer | Checker |
+| [m07l04-04](m07l04-04/) | Consume two records and commit the group offset | Checker |
+| [m07l04-05](m07l04-05/) | Measure lag and add partitions | Checker |
+| [m07l04-07](m07l04-07/) | Remove the cluster | Checker |
 
 ## Exercises
 

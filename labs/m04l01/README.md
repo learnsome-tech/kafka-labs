@@ -8,10 +8,10 @@ Module 4: Delivery Guarantees And Transactions · lesson 4.1 · Pro · [Open the
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m04l01-02](m04l01-02/) | Broker up, topic created | Read along |
-| [m04l01-04](m04l01-04/) | Producer: each event sent twice | Read along |
-| [m04l01-05](m04l01-05/) | Consumer: count per key reveals the extras | Read along |
-| [m04l01-08](m04l01-08/) | Tear down the lesson environment | Read along |
+| [m04l01-02](m04l01-02/) | Broker up, topic created | Checker |
+| [m04l01-04](m04l01-04/) | Producer: each event sent twice | Checker |
+| [m04l01-05](m04l01-05/) | Consumer: count per key reveals the extras | Checker |
+| [m04l01-08](m04l01-08/) | Tear down the lesson environment | Checker |
 
 ## Exercises
 

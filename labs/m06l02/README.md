@@ -8,13 +8,13 @@ Module 6: Event-Driven: Outbox, CDC, Compaction · lesson 6.2 · Pro · [Open th
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m06l02-02](m06l02-02/) | Start broker, database and build the outbox client | Read along |
-| [m06l02-03](m06l02-03/) | Write two orders and two outbox rows in one transaction | Read along |
-| [m06l02-04](m06l02-04/) | Inspect the outbox before the relay runs | Read along |
-| [m06l02-05](m06l02-05/) | Relay: read unpublished rows, produce them, mark published | Read along |
-| [m06l02-06](m06l02-06/) | Confirm events in Kafka and published flags in the outbox | Read along |
-| [m06l02-07](m06l02-07/) | Run the relay a second time: nothing is republished | Read along |
-| [m06l02-09](m06l02-09/) | Remove the broker, database and network | Read along |
+| [m06l02-02](m06l02-02/) | Start broker, database and build the outbox client | Checker |
+| [m06l02-03](m06l02-03/) | Write two orders and two outbox rows in one transaction | Checker |
+| [m06l02-04](m06l02-04/) | Inspect the outbox before the relay runs | Checker |
+| [m06l02-05](m06l02-05/) | Relay: read unpublished rows, produce them, mark published | Checker |
+| [m06l02-06](m06l02-06/) | Confirm events in Kafka and published flags in the outbox | Checker |
+| [m06l02-07](m06l02-07/) | Run the relay a second time: nothing is republished | Checker |
+| [m06l02-09](m06l02-09/) | Remove the broker, database and network | Checker |
 
 ## Exercises
 

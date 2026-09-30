@@ -8,10 +8,10 @@ Module 6: Event-Driven: Outbox, CDC, Compaction · lesson 6.3 · Pro · [Open th
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m06l03-02](m06l03-02/) | Start Postgres with logical replication and create a slot | Read along |
-| [m06l03-03](m06l03-03/) | Insert a product row and then update it | Read along |
-| [m06l03-04](m06l03-04/) | Read the change stream from the replication slot | Read along |
-| [m06l03-07](m06l03-07/) | Remove the database and network | Read along |
+| [m06l03-02](m06l03-02/) | Start Postgres with logical replication and create a slot | Checker |
+| [m06l03-03](m06l03-03/) | Insert a product row and then update it | Checker |
+| [m06l03-04](m06l03-04/) | Read the change stream from the replication slot | Checker |
+| [m06l03-07](m06l03-07/) | Remove the database and network | Checker |
 
 ## Exercises
 

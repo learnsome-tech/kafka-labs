@@ -8,12 +8,12 @@ Module 6: Event-Driven: Outbox, CDC, Compaction · lesson 6.1 · Pro · [Open th
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m06l01-02](m06l01-02/) | Start broker, database and build the client image | Read along |
-| [m06l01-03](m06l01-03/) | Scenario one: database commits, Kafka never receives | Read along |
-| [m06l01-04](m06l01-04/) | Verify state: database has the row, topic has nothing | Read along |
-| [m06l01-05](m06l01-05/) | Scenario two: Kafka publishes, database never receives | Read along |
-| [m06l01-06](m06l01-06/) | Verify state: topic has the event, database has nothing | Read along |
-| [m06l01-08](m06l01-08/) | Remove the broker, database and network | Read along |
+| [m06l01-02](m06l01-02/) | Start broker, database and build the client image | Checker |
+| [m06l01-03](m06l01-03/) | Scenario one: database commits, Kafka never receives | Checker |
+| [m06l01-04](m06l01-04/) | Verify state: database has the row, topic has nothing | Checker |
+| [m06l01-05](m06l01-05/) | Scenario two: Kafka publishes, database never receives | Checker |
+| [m06l01-06](m06l01-06/) | Verify state: topic has the event, database has nothing | Checker |
+| [m06l01-08](m06l01-08/) | Remove the broker, database and network | Checker |
 
 ## Exercises
 

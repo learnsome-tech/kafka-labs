@@ -8,11 +8,11 @@ Module 3: Consumers And Consumer Groups · lesson 3.4 · Pro · [Open the lesson
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m03l04-02](m03l04-02/) | Start the broker and network | Read along |
-| [m03l04-03](m03l04-03/) | Create a three-partition topic and produce three records | Read along |
-| [m03l04-04](m03l04-04/) | Write the consumer with session and heartbeat settings | Read along |
-| [m03l04-05](m03l04-05/) | Run the consumer and observe the rebalance | Read along |
-| [m03l04-07](m03l04-07/) | Inspect the group and clean up | Read along |
+| [m03l04-02](m03l04-02/) | Start the broker and network | Checker |
+| [m03l04-03](m03l04-03/) | Create a three-partition topic and produce three records | Checker |
+| [m03l04-04](m03l04-04/) | Write the consumer with session and heartbeat settings | Checker |
+| [m03l04-05](m03l04-05/) | Run the consumer and observe the rebalance | Checker |
+| [m03l04-07](m03l04-07/) | Inspect the group and clean up | Checker |
 
 ## Exercises
 

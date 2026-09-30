@@ -8,11 +8,11 @@ Module 7: Operating A Cluster · lesson 7.3 · Pro · [Open the lesson](https://
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m07l03-02](m07l03-02/) | Start the cluster, topic, and minimum ISR setting | Read along |
-| [m07l03-03](m07l03-03/) | Stop one broker and confirm the topic stays up | Read along |
-| [m07l03-04](m07l03-04/) | Restart the stopped broker and verify rejoining | Read along |
+| [m07l03-02](m07l03-02/) | Start the cluster, topic, and minimum ISR setting | Checker |
+| [m07l03-03](m07l03-03/) | Stop one broker and confirm the topic stays up | Checker |
+| [m07l03-04](m07l03-04/) | Restart the stopped broker and verify rejoining | Checker |
 | [m07l03-05](m07l03-05/) | Stop two brokers: acks-all producer is rejected | Read along |
-| [m07l03-06](m07l03-06/) | Remove all containers and the network | Read along |
+| [m07l03-06](m07l03-06/) | Remove all containers and the network | Checker |
 
 ## Exercises
 

@@ -1,7 +1,7 @@
 # m01l03-05 · Describe the topic partition layout
 
 **Lesson:** [Topics, Partitions And Where A Record Lands](https://learnsome.tech/learn/kafka-course/m01l03) (lesson 1.3, module 1: The Log: Topics, Partitions And Offsets) · Free  
-**Check:** Read along
+**Check:** Checker
 
 ## Goal
 
@@ -19,21 +19,25 @@ In the lesson: rpk topic describe shows the full structure of a topic. The summa
 
 ## Steps
 
-1. Read `starter/session.sh` alongside the lesson.
-2. On a machine that has what it needs, the lesson ran it with:
+1. Go to the starter: `cd labs/m01l03/m01l03-05/starter`
+2. Read `session.sh`.
+3. The session types these commands, in order:
 
    ```sh
-   bash setup.sh >/dev/null 2>&1
    B=m01l03-broker
    T=m01l03-orders
    docker exec $B rpk topic describe $T
    ```
+4. Edit `session.sh` and check it: `bash -n session.sh`.
+5. Check it from the repository root: `./check m01l03-05`.
 
 ## How to check
 
-**Read along.** It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed.
+`./check m01l03-05` copies `starter/` into a scratch directory and runs `bash -n session.sh` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-There is nothing to check: `./check m01l03-05` says so and moves on.
+**Read along, with a syntax check.** Running it needs Docker and the Kafka broker containers the course starts, which the lab sandbox does not have, so the site shows it with its recorded output.
+
+This is a checker lab: it checks that the shell script parses (`bash -n`), without running it. The site shows the checker's report without grading; `./check` passes when the checker finds no errors.
 
 ---
 

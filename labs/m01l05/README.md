@@ -8,11 +8,11 @@ Module 1: The Log: Topics, Partitions And Offsets · lesson 1.5 · Free · [Open
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m01l05-02](m01l05-02/) | Start a network and broker | Read along |
-| [m01l05-03](m01l05-03/) | Create a topic and produce some records | Read along |
-| [m01l05-04](m01l05-04/) | Set time-based retention and inspect the config | Read along |
-| [m01l05-05](m01l05-05/) | Set size-based retention and inspect the config | Read along |
-| [m01l05-07](m01l05-07/) | Remove the broker and network | Read along |
+| [m01l05-02](m01l05-02/) | Start a network and broker | Checker |
+| [m01l05-03](m01l05-03/) | Create a topic and produce some records | Checker |
+| [m01l05-04](m01l05-04/) | Set time-based retention and inspect the config | Checker |
+| [m01l05-05](m01l05-05/) | Set size-based retention and inspect the config | Checker |
+| [m01l05-07](m01l05-07/) | Remove the broker and network | Checker |
 
 ## Exercises
 

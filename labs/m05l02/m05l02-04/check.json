@@ -2,9 +2,9 @@
   "lab": "m05l02-04",
   "lesson": "m05l02",
   "title": "Register the schema with the registry",
-  "mode": "read-along",
-  "runner": null,
-  "command": null,
+  "mode": "checker",
+  "runner": "bash-syntax",
+  "command": "bash -n register.sh",
   "main": "register.sh",
   "files": [
     "register.sh",
@@ -14,6 +14,8 @@
   "stdin": null,
   "expected": null,
   "grading": null,
-  "requires": [],
-  "note": "It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed."
+  "requires": [
+    "bash"
+  ],
+  "note": null
 }

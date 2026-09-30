@@ -8,9 +8,9 @@ Module 7: Operating A Cluster · lesson 7.5 · Pro · [Open the lesson](https://
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m07l05-02](m07l05-02/) | Show the cost of running three broker containers | Read along |
-| [m07l05-03](m07l05-03/) | Print a decision table from a rule dictionary | Read along |
-| [m07l05-05](m07l05-05/) | Remove the cluster | Read along |
+| [m07l05-02](m07l05-02/) | Show the cost of running three broker containers | Checker |
+| [m07l05-03](m07l05-03/) | Print a decision table from a rule dictionary | Checker |
+| [m07l05-05](m07l05-05/) | Remove the cluster | Checker |
 
 ## Exercises
 

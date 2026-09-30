@@ -8,11 +8,11 @@ Module 4: Delivery Guarantees And Transactions · lesson 4.5 · Pro · [Open the
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m04l05-02](m04l05-02/) | Broker and four topics for the retry pipeline | Read along |
-| [m04l05-04](m04l05-04/) | Produce one record to start the pipeline | Read along |
-| [m04l05-05](m04l05-05/) | Retry router: record flows through all three tiers | Read along |
-| [m04l05-06](m04l05-06/) | Confirm the dead letter queue holds the final record | Read along |
-| [m04l05-08](m04l05-08/) | Tear down the lesson environment | Read along |
+| [m04l05-02](m04l05-02/) | Broker and four topics for the retry pipeline | Checker |
+| [m04l05-04](m04l05-04/) | Produce one record to start the pipeline | Checker |
+| [m04l05-05](m04l05-05/) | Retry router: record flows through all three tiers | Checker |
+| [m04l05-06](m04l05-06/) | Confirm the dead letter queue holds the final record | Checker |
+| [m04l05-08](m04l05-08/) | Tear down the lesson environment | Checker |
 
 ## Exercises
 

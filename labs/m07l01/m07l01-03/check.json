@@ -2,9 +2,9 @@
   "lab": "m07l01-03",
   "lesson": "m07l01",
   "title": "Inspect the cluster and create a replicated topic",
-  "mode": "read-along",
-  "runner": null,
-  "command": null,
+  "mode": "checker",
+  "runner": "bash-syntax",
+  "command": "bash -n session.sh",
   "main": "session.sh",
   "files": [
     "run.sh",
@@ -15,6 +15,8 @@
   "stdin": null,
   "expected": null,
   "grading": null,
-  "requires": [],
-  "note": "The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only."
+  "requires": [
+    "bash"
+  ],
+  "note": null
 }

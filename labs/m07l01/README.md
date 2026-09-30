@@ -8,9 +8,9 @@ Module 7: Operating A Cluster · lesson 7.1 · Pro · [Open the lesson](https://
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m07l01-02](m07l01-02/) | Start a three-node cluster | Read along |
-| [m07l01-03](m07l01-03/) | Inspect the cluster and create a replicated topic | Read along |
-| [m07l01-05](m07l01-05/) | Remove the cluster | Read along |
+| [m07l01-02](m07l01-02/) | Start a three-node cluster | Checker |
+| [m07l01-03](m07l01-03/) | Inspect the cluster and create a replicated topic | Checker |
+| [m07l01-05](m07l01-05/) | Remove the cluster | Checker |
 
 ## Exercises
 

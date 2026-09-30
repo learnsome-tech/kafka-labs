@@ -8,11 +8,11 @@ Module 5: Schemas, Serialisation And Evolution · lesson 5.3 · Pro · [Open the
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m05l03-02](m05l03-02/) | Start the broker and create the events topic | Read along |
-| [m05l03-03](m05l03-03/) | Register v-one schema and set BACKWARD compatibility | Read along |
+| [m05l03-02](m05l03-02/) | Start the broker and create the events topic | Checker |
+| [m05l03-03](m05l03-03/) | Register v-one schema and set BACKWARD compatibility | Checker |
 | [m05l03-04](m05l03-04/) | Attempt to register an incompatible schema change | Read along |
-| [m05l03-05](m05l03-05/) | Register a compatible schema: add an optional field | Read along |
-| [m05l03-08](m05l03-08/) | Remove the broker and network | Read along |
+| [m05l03-05](m05l03-05/) | Register a compatible schema: add an optional field | Checker |
+| [m05l03-08](m05l03-08/) | Remove the broker and network | Checker |
 
 ## Exercises
 

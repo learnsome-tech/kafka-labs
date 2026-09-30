@@ -8,11 +8,11 @@ Module 4: Delivery Guarantees And Transactions · lesson 4.4 · Pro · [Open the
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m04l04-02](m04l04-02/) | Broker, main topic, and dead letter topic ready | Read along |
-| [m04l04-03](m04l04-03/) | Producer: four records, one carrying invalid JSON | Read along |
-| [m04l04-05](m04l04-05/) | DLQ consumer: catch failures and route them forward | Read along |
-| [m04l04-06](m04l04-06/) | Inspect the dead letter topic | Read along |
-| [m04l04-08](m04l04-08/) | Tear down the lesson environment | Read along |
+| [m04l04-02](m04l04-02/) | Broker, main topic, and dead letter topic ready | Checker |
+| [m04l04-03](m04l04-03/) | Producer: four records, one carrying invalid JSON | Checker |
+| [m04l04-05](m04l04-05/) | DLQ consumer: catch failures and route them forward | Checker |
+| [m04l04-06](m04l04-06/) | Inspect the dead letter topic | Checker |
+| [m04l04-08](m04l04-08/) | Tear down the lesson environment | Checker |
 
 ## Exercises
 

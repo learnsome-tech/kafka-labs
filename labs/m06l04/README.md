@@ -8,12 +8,12 @@ Module 6: Event-Driven: Outbox, CDC, Compaction · lesson 6.4 · Pro · [Open th
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m06l04-02](m06l04-02/) | Create a compacted topic and build the client | Read along |
-| [m06l04-03](m06l04-03/) | Produce six price updates across three keys | Read along |
-| [m06l04-04](m06l04-04/) | Read the full log before compaction | Read along |
-| [m06l04-05](m06l04-05/) | Fold the log into a key-value table in Python | Read along |
-| [m06l04-06](m06l04-06/) | Inspect the compaction configuration | Read along |
-| [m06l04-08](m06l04-08/) | Remove the broker and network | Read along |
+| [m06l04-02](m06l04-02/) | Create a compacted topic and build the client | Checker |
+| [m06l04-03](m06l04-03/) | Produce six price updates across three keys | Checker |
+| [m06l04-04](m06l04-04/) | Read the full log before compaction | Checker |
+| [m06l04-05](m06l04-05/) | Fold the log into a key-value table in Python | Checker |
+| [m06l04-06](m06l04-06/) | Inspect the compaction configuration | Checker |
+| [m06l04-08](m06l04-08/) | Remove the broker and network | Checker |
 
 ## Exercises
 

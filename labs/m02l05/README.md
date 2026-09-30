@@ -8,11 +8,11 @@ Module 2: Producers: Keys, Batches And Acks · lesson 2.5 · Pro · [Open the le
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m02l05-02](m02l05-02/) | Start the broker and create both topics | Read along |
-| [m02l05-03](m02l05-03/) | Write the non-idempotent duplicate producer | Read along |
-| [m02l05-04](m02l05-04/) | Send the duplicates and observe the offsets | Read along |
-| [m02l05-05](m02l05-05/) | Configure and run the idempotent producer | Read along |
-| [m02l05-06](m02l05-06/) | Read the duplicate topic to confirm, then clean up | Read along |
+| [m02l05-02](m02l05-02/) | Start the broker and create both topics | Checker |
+| [m02l05-03](m02l05-03/) | Write the non-idempotent duplicate producer | Checker |
+| [m02l05-04](m02l05-04/) | Send the duplicates and observe the offsets | Checker |
+| [m02l05-05](m02l05-05/) | Configure and run the idempotent producer | Checker |
+| [m02l05-06](m02l05-06/) | Read the duplicate topic to confirm, then clean up | Checker |
 
 ## Exercises
 

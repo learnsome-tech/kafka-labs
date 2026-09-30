@@ -40,7 +40,8 @@ This repository holds the labs of the LearnSome.tech course [Apache Kafka & Even
 
 | Check | What `./check` does | Labs |
 | --- | --- | --- |
-| Read along | Nothing to run here: the site shows the listing read-only, and the lab README says honestly what it needs (Docker, a cluster, a cloud account...). | 174 |
+| Checker | Validates the file with the checker the site uses (hadolint, kubeconform, actionlint, yamllint, `ansible-playbook --syntax-check` or `terraform validate`); passes when it finds no errors. | 167 |
+| Read along | Nothing to run here: the site shows the listing read-only, and the lab README says honestly what it needs (Docker, a cluster, a cloud account...). | 7 |
 
 ## What is published, and what is not
 

@@ -1,7 +1,7 @@
 # m03l05-07 · Write and run the at-most-once consumer
 
 **Lesson:** [At Most Once, At Least Once](https://learnsome.tech/learn/kafka-course/m03l05) (lesson 3.5, module 3: Consumers And Consumer Groups) · Pro  
-**Check:** Read along
+**Check:** Checker
 
 ## Goal
 
@@ -20,19 +20,18 @@ In the lesson: The at-most-once consumer commits the offset immediately after re
 
 ## Steps
 
-1. Read `starter/amo.py` alongside the lesson.
-2. On a machine that has what it needs, the lesson ran it with:
-
-   ```sh
-   bash setup.sh >/dev/null 2>&1
-   docker run --rm --network m03l05-net -v $PWD:/app m03l05-client python amo.py
-   ```
+1. Go to the starter: `cd labs/m03l05/m03l05-07/starter`
+2. Read `amo.py`.
+3. Edit `amo.py` and check it: `python3 -m py_compile amo.py`.
+4. Check it from the repository root: `./check m03l05-07`.
 
 ## How to check
 
-**Read along.** It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed.
+`./check m03l05-07` copies `starter/` into a scratch directory and runs `python3 -m py_compile amo.py` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-There is nothing to check: `./check m03l05-07` says so and moves on.
+**Read along, with a syntax check.** Running it needs Docker and the Kafka broker containers the course starts, which the lab sandbox does not have, so the site shows it with its recorded output.
+
+This is a checker lab: it checks that the Python program compiles (`python3 -m py_compile`), without running it. The site shows the checker's report without grading; `./check` passes when the checker finds no errors.
 
 ---
 

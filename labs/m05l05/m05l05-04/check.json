@@ -2,9 +2,9 @@
   "lab": "m05l05-04",
   "lesson": "m05l05",
   "title": "Consumer: print headers and envelope fields",
-  "mode": "read-along",
-  "runner": null,
-  "command": null,
+  "mode": "checker",
+  "runner": "py-compile",
+  "command": "python3 -m py_compile envelope_consumer.py",
   "main": "envelope_consumer.py",
   "files": [
     "Dockerfile",
@@ -16,6 +16,8 @@
   "stdin": null,
   "expected": null,
   "grading": null,
-  "requires": [],
-  "note": "It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed."
+  "requires": [
+    "python3"
+  ],
+  "note": null
 }

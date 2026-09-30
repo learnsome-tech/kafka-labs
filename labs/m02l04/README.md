@@ -8,11 +8,11 @@ Module 2: Producers: Keys, Batches And Acks · lesson 2.4 · Pro · [Open the le
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m02l04-02](m02l04-02/) | Start the broker and create the topic | Read along |
-| [m02l04-03](m02l04-03/) | No-batch producer with batch-size one | Read along |
-| [m02l04-04](m02l04-04/) | Run the no-batch producer | Read along |
-| [m02l04-05](m02l04-05/) | Batched producer with gzip compression | Read along |
-| [m02l04-06](m02l04-06/) | Verify record count and clean up | Read along |
+| [m02l04-02](m02l04-02/) | Start the broker and create the topic | Checker |
+| [m02l04-03](m02l04-03/) | No-batch producer with batch-size one | Checker |
+| [m02l04-04](m02l04-04/) | Run the no-batch producer | Checker |
+| [m02l04-05](m02l04-05/) | Batched producer with gzip compression | Checker |
+| [m02l04-06](m02l04-06/) | Verify record count and clean up | Checker |
 
 ## Exercises
 

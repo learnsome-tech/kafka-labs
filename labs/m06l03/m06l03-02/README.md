@@ -1,7 +1,7 @@
 # m06l03-02 · Start Postgres with logical replication and create a slot
 
 **Lesson:** [Change Data Capture In Principle](https://learnsome.tech/learn/kafka-course/m06l03) (lesson 6.3, module 6: Event-Driven: Outbox, CDC, Compaction) · Pro  
-**Check:** Read along
+**Check:** Checker
 
 ## Goal
 
@@ -17,18 +17,18 @@ In the lesson: We start the Postgres container with a flag that sets the write-a
 
 ## Steps
 
-1. Read `starter/setup.sh` alongside the lesson.
-2. On a machine that has what it needs, the lesson ran it with:
-
-   ```sh
-   bash setup.sh
-   ```
+1. Go to the starter: `cd labs/m06l03/m06l03-02/starter`
+2. Read `setup.sh`.
+3. Edit `setup.sh` and check it: `bash -n setup.sh`.
+4. Check it from the repository root: `./check m06l03-02`.
 
 ## How to check
 
-**Read along.** It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed.
+`./check m06l03-02` copies `starter/` into a scratch directory and runs `bash -n setup.sh` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-There is nothing to check: `./check m06l03-02` says so and moves on.
+**Read along, with a syntax check.** Running it needs Docker and the Kafka broker containers the course starts, which the lab sandbox does not have, so the site shows it with its recorded output.
+
+This is a checker lab: it checks that the shell script parses (`bash -n`), without running it. The site shows the checker's report without grading; `./check` passes when the checker finds no errors.
 
 ---
 

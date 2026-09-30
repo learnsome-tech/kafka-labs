@@ -2,9 +2,9 @@
   "lab": "m07l04-04",
   "lesson": "m07l04",
   "title": "Consume two records and commit the group offset",
-  "mode": "read-along",
-  "runner": null,
-  "command": null,
+  "mode": "checker",
+  "runner": "py-compile",
+  "command": "python3 -m py_compile cons.py",
   "main": "cons.py",
   "files": [
     "Dockerfile",
@@ -17,6 +17,8 @@
   "stdin": null,
   "expected": null,
   "grading": null,
-  "requires": [],
-  "note": "It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed."
+  "requires": [
+    "python3"
+  ],
+  "note": null
 }

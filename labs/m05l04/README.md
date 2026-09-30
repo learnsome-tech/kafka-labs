@@ -8,12 +8,12 @@ Module 5: Schemas, Serialisation And Evolution · lesson 5.4 · Pro · [Open the
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m05l04-02](m05l04-02/) | Start the broker, build the client, create the topic | Read along |
-| [m05l04-03](m05l04-03/) | V-one producer: two records with id and amount | Read along |
-| [m05l04-04](m05l04-04/) | V-one consumer: reads the two v-one records | Read along |
-| [m05l04-05](m05l04-05/) | V-two producer: adds a currency field to every record | Read along |
-| [m05l04-06](m05l04-06/) | V-one consumer re-runs: processes v-two records too | Read along |
-| [m05l04-09](m05l04-09/) | Remove the broker and network | Read along |
+| [m05l04-02](m05l04-02/) | Start the broker, build the client, create the topic | Checker |
+| [m05l04-03](m05l04-03/) | V-one producer: two records with id and amount | Checker |
+| [m05l04-04](m05l04-04/) | V-one consumer: reads the two v-one records | Checker |
+| [m05l04-05](m05l04-05/) | V-two producer: adds a currency field to every record | Checker |
+| [m05l04-06](m05l04-06/) | V-one consumer re-runs: processes v-two records too | Checker |
+| [m05l04-09](m05l04-09/) | Remove the broker and network | Checker |
 
 ## Exercises
 

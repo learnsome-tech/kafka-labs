@@ -8,12 +8,12 @@ Module 3: Consumers And Consumer Groups · lesson 3.3 · Pro · [Open the lesson
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m03l03-02](m03l03-02/) | Start the broker and network | Read along |
-| [m03l03-03](m03l03-03/) | Create the topic and produce four records | Read along |
-| [m03l03-04](m03l03-04/) | Write the consumer with manual commit control | Read along |
-| [m03l03-05](m03l03-05/) | Read without committing, observe the gap | Read along |
-| [m03l03-06](m03l03-06/) | Read and commit, confirm the position is saved | Read along |
-| [m03l03-07](m03l03-07/) | Inspect the group and clean up | Read along |
+| [m03l03-02](m03l03-02/) | Start the broker and network | Checker |
+| [m03l03-03](m03l03-03/) | Create the topic and produce four records | Checker |
+| [m03l03-04](m03l03-04/) | Write the consumer with manual commit control | Checker |
+| [m03l03-05](m03l03-05/) | Read without committing, observe the gap | Checker |
+| [m03l03-06](m03l03-06/) | Read and commit, confirm the position is saved | Checker |
+| [m03l03-07](m03l03-07/) | Inspect the group and clean up | Checker |
 
 ## Exercises
 

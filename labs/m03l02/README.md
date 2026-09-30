@@ -8,11 +8,11 @@ Module 3: Consumers And Consumer Groups · lesson 3.2 · Pro · [Open the lesson
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m03l02-02](m03l02-02/) | Start the broker and network | Read along |
-| [m03l02-03](m03l02-03/) | Create a three-partition topic and produce six records | Read along |
-| [m03l02-04](m03l02-04/) | Write the consumer with assignment reporting | Read along |
-| [m03l02-05](m03l02-05/) | Run the consumer and observe partition assignment | Read along |
-| [m03l02-07](m03l02-07/) | Inspect the group and clean up | Read along |
+| [m03l02-02](m03l02-02/) | Start the broker and network | Checker |
+| [m03l02-03](m03l02-03/) | Create a three-partition topic and produce six records | Checker |
+| [m03l02-04](m03l02-04/) | Write the consumer with assignment reporting | Checker |
+| [m03l02-05](m03l02-05/) | Run the consumer and observe partition assignment | Checker |
+| [m03l02-07](m03l02-07/) | Inspect the group and clean up | Checker |
 
 ## Exercises
 

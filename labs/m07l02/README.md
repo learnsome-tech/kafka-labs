@@ -8,10 +8,10 @@ Module 7: Operating A Cluster · lesson 7.2 · Pro · [Open the lesson](https://
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m07l02-02](m07l02-02/) | Start a cluster, create a topic, set minimum ISR | Read along |
-| [m07l02-03](m07l02-03/) | Read the in-sync replica set from the admin API | Read along |
-| [m07l02-05](m07l02-05/) | Confirm acks-all succeeds with a healthy ISR | Read along |
-| [m07l02-06](m07l02-06/) | Describe partitions and clean up | Read along |
+| [m07l02-02](m07l02-02/) | Start a cluster, create a topic, set minimum ISR | Checker |
+| [m07l02-03](m07l02-03/) | Read the in-sync replica set from the admin API | Checker |
+| [m07l02-05](m07l02-05/) | Confirm acks-all succeeds with a healthy ISR | Checker |
+| [m07l02-06](m07l02-06/) | Describe partitions and clean up | Checker |
 
 ## Exercises
 

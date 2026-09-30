@@ -8,11 +8,11 @@ Module 2: Producers: Keys, Batches And Acks · lesson 2.2 · Pro · [Open the le
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m02l02-02](m02l02-02/) | Start the broker with a two-partition topic | Read along |
-| [m02l02-03](m02l02-03/) | Write the keyed producer and build the image | Read along |
-| [m02l02-04](m02l02-04/) | Send six interleaved records and see routing | Read along |
+| [m02l02-02](m02l02-02/) | Start the broker with a two-partition topic | Checker |
+| [m02l02-03](m02l02-03/) | Write the keyed producer and build the image | Checker |
+| [m02l02-04](m02l02-04/) | Send six interleaved records and see routing | Checker |
 | [m02l02-05](m02l02-05/) | The hash partitioner and custom routing | Read along |
-| [m02l02-06](m02l02-06/) | Read records by partition, then clean up | Read along |
+| [m02l02-06](m02l02-06/) | Read records by partition, then clean up | Checker |
 
 ## Exercises
 

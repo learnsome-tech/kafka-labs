@@ -8,13 +8,13 @@ Module 3: Consumers And Consumer Groups · lesson 3.5 · Pro · [Open the lesson
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m03l05-02](m03l05-02/) | Start the broker and network | Read along |
-| [m03l05-03](m03l05-03/) | Create the topic and produce six records | Read along |
-| [m03l05-04](m03l05-04/) | Write the at-least-once consumer | Read along |
-| [m03l05-05](m03l05-05/) | Simulate the crash mid-batch | Read along |
-| [m03l05-06](m03l05-06/) | Restart after the crash, observe the duplicate | Read along |
-| [m03l05-07](m03l05-07/) | Write and run the at-most-once consumer | Read along |
-| [m03l05-09](m03l05-09/) | Remove the broker and network | Read along |
+| [m03l05-02](m03l05-02/) | Start the broker and network | Checker |
+| [m03l05-03](m03l05-03/) | Create the topic and produce six records | Checker |
+| [m03l05-04](m03l05-04/) | Write the at-least-once consumer | Checker |
+| [m03l05-05](m03l05-05/) | Simulate the crash mid-batch | Checker |
+| [m03l05-06](m03l05-06/) | Restart after the crash, observe the duplicate | Checker |
+| [m03l05-07](m03l05-07/) | Write and run the at-most-once consumer | Checker |
+| [m03l05-09](m03l05-09/) | Remove the broker and network | Checker |
 
 ## Exercises
 

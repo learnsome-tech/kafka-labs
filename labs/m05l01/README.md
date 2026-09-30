@@ -8,11 +8,11 @@ Module 5: Schemas, Serialisation And Evolution · lesson 5.1 · Pro · [Open the
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m05l01-02](m05l01-02/) | Start the broker, build the client, create both topics | Read along |
-| [m05l01-03](m05l01-03/) | Produce JSON and binary representations of the same event | Read along |
-| [m05l01-04](m05l01-04/) | Consume the JSON topic to see what the wire carries | Read along |
+| [m05l01-02](m05l01-02/) | Start the broker, build the client, create both topics | Checker |
+| [m05l01-03](m05l01-03/) | Produce JSON and binary representations of the same event | Checker |
+| [m05l01-04](m05l01-04/) | Consume the JSON topic to see what the wire carries | Checker |
 | [m05l01-05](m05l01-05/) | Avro and Protobuf: schema-full wire formats | Read along |
-| [m05l01-07](m05l01-07/) | Remove the broker and network | Read along |
+| [m05l01-07](m05l01-07/) | Remove the broker and network | Checker |
 
 ## Exercises
 

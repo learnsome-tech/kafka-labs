@@ -8,10 +8,10 @@ Module 2: Producers: Keys, Batches And Acks · lesson 2.3 · Pro · [Open the le
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m02l03-02](m02l03-02/) | Start the broker and create the topic | Read along |
-| [m02l03-03](m02l03-03/) | Demonstrate all three ack levels | Read along |
-| [m02l03-04](m02l03-04/) | Run the acks comparison | Read along |
-| [m02l03-05](m02l03-05/) | Set min-insync-replicas and describe the partition | Read along |
+| [m02l03-02](m02l03-02/) | Start the broker and create the topic | Checker |
+| [m02l03-03](m02l03-03/) | Demonstrate all three ack levels | Checker |
+| [m02l03-04](m02l03-04/) | Run the acks comparison | Checker |
+| [m02l03-05](m02l03-05/) | Set min-insync-replicas and describe the partition | Checker |
 | [m02l03-06](m02l03-06/) | What the error looks like when ISR is too small | Read along |
 
 ## Exercises

@@ -1,7 +1,7 @@
 # m02l03-04 · Run the acks comparison
 
 **Lesson:** [Acknowledgements: What Acks Means For Durability](https://learnsome.tech/learn/kafka-course/m02l03) (lesson 2.3, module 2: Producers: Keys, Batches And Acks) · Pro  
-**Check:** Read along
+**Check:** Checker
 
 ## Goal
 
@@ -20,19 +20,18 @@ In the lesson: The first line confirms that acks zero returns immediately with n
 
 ## Steps
 
-1. Read `starter/run.sh` alongside the lesson.
-2. On a machine that has what it needs, the lesson ran it with:
-
-   ```sh
-   bash setup.sh >/dev/null 2>&1
-   bash run.sh
-   ```
+1. Go to the starter: `cd labs/m02l03/m02l03-04/starter`
+2. Read `run.sh`.
+3. Edit `run.sh` and check it: `bash -n run.sh`.
+4. Check it from the repository root: `./check m02l03-04`.
 
 ## How to check
 
-**Read along.** The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only.
+`./check m02l03-04` copies `starter/` into a scratch directory and runs `bash -n run.sh` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-There is nothing to check: `./check m02l03-04` says so and moves on.
+**Read along, with a syntax check.** Running it needs Docker and the Kafka broker containers the course starts, which the lab sandbox does not have, so the site shows it with its recorded output.
+
+This is a checker lab: it checks that the shell script parses (`bash -n`), without running it. The site shows the checker's report without grading; `./check` passes when the checker finds no errors.
 
 ---
 

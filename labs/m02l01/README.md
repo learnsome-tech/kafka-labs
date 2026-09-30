@@ -8,10 +8,10 @@ Module 2: Producers: Keys, Batches And Acks · lesson 2.1 · Pro · [Open the le
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m02l01-02](m02l01-02/) | Start the broker and create the topic | Read along |
-| [m02l01-03](m02l01-03/) | Write the producer and build the image | Read along |
-| [m02l01-04](m02l01-04/) | Send ten records and read the offsets | Read along |
-| [m02l01-05](m02l01-05/) | Confirm delivery with rpk, then clean up | Read along |
+| [m02l01-02](m02l01-02/) | Start the broker and create the topic | Checker |
+| [m02l01-03](m02l01-03/) | Write the producer and build the image | Checker |
+| [m02l01-04](m02l01-04/) | Send ten records and read the offsets | Checker |
+| [m02l01-05](m02l01-05/) | Confirm delivery with rpk, then clean up | Checker |
 
 ## Exercises
 

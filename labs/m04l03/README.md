@@ -8,11 +8,11 @@ Module 4: Delivery Guarantees And Transactions · lesson 4.3 · Pro · [Open the
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m04l03-02](m04l03-02/) | Broker and two topics ready for transaction demo | Read along |
-| [m04l03-03](m04l03-03/) | Transactional producer: commit three records | Read along |
-| [m04l03-04](m04l03-04/) | Read-committed consumer sees the three records | Read along |
-| [m04l03-06](m04l03-06/) | Aborted transaction: read-committed sees nothing | Read along |
-| [m04l03-08](m04l03-08/) | Tear down the lesson environment | Read along |
+| [m04l03-02](m04l03-02/) | Broker and two topics ready for transaction demo | Checker |
+| [m04l03-03](m04l03-03/) | Transactional producer: commit three records | Checker |
+| [m04l03-04](m04l03-04/) | Read-committed consumer sees the three records | Checker |
+| [m04l03-06](m04l03-06/) | Aborted transaction: read-committed sees nothing | Checker |
+| [m04l03-08](m04l03-08/) | Tear down the lesson environment | Checker |
 
 ## Exercises
 

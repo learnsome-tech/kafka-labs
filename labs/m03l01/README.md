@@ -8,11 +8,11 @@ Module 3: Consumers And Consumer Groups · lesson 3.1 · Pro · [Open the lesson
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m03l01-02](m03l01-02/) | Start the broker and network | Read along |
-| [m03l01-03](m03l01-03/) | Create the topic and produce three records | Read along |
-| [m03l01-04](m03l01-04/) | Write the consumer program and build the image | Read along |
-| [m03l01-05](m03l01-05/) | Run the consumer and read the records back | Read along |
-| [m03l01-08](m03l01-08/) | Remove the broker and network | Read along |
+| [m03l01-02](m03l01-02/) | Start the broker and network | Checker |
+| [m03l01-03](m03l01-03/) | Create the topic and produce three records | Checker |
+| [m03l01-04](m03l01-04/) | Write the consumer program and build the image | Checker |
+| [m03l01-05](m03l01-05/) | Run the consumer and read the records back | Checker |
+| [m03l01-08](m03l01-08/) | Remove the broker and network | Checker |
 
 ## Exercises
 

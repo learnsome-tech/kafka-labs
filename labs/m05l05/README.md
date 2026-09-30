@@ -8,11 +8,11 @@ Module 5: Schemas, Serialisation And Evolution · lesson 5.5 · Pro · [Open the
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m05l05-02](m05l05-02/) | Start the broker, build the client, create the topic | Read along |
-| [m05l05-03](m05l05-03/) | Producer: send one envelope record with two headers | Read along |
-| [m05l05-04](m05l05-04/) | Consumer: print headers and envelope fields | Read along |
-| [m05l05-05](m05l05-05/) | Consume with rpk to see the raw wire value | Read along |
-| [m05l05-08](m05l05-08/) | Remove the broker and network | Read along |
+| [m05l05-02](m05l05-02/) | Start the broker, build the client, create the topic | Checker |
+| [m05l05-03](m05l05-03/) | Producer: send one envelope record with two headers | Checker |
+| [m05l05-04](m05l05-04/) | Consumer: print headers and envelope fields | Checker |
+| [m05l05-05](m05l05-05/) | Consume with rpk to see the raw wire value | Checker |
+| [m05l05-08](m05l05-08/) | Remove the broker and network | Checker |
 
 ## Exercises
 

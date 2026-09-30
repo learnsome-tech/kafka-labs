@@ -1,7 +1,7 @@
 # m02l01-03 · Write the producer and build the image
 
 **Lesson:** [A Producer In Python](https://learnsome.tech/learn/kafka-course/m02l01) (lesson 2.1, module 2: Producers: Keys, Batches And Acks) · Pro  
-**Check:** Read along
+**Check:** Checker
 
 ## Goal
 
@@ -20,19 +20,18 @@ In the lesson: The producer program starts by silencing the kafka-python library
 
 ## Steps
 
-1. Read `starter/producer.py` alongside the lesson.
-2. On a machine that has what it needs, the lesson ran it with:
-
-   ```sh
-   bash setup.sh >/dev/null 2>&1
-   docker build -q -t m02l01-client .
-   ```
+1. Go to the starter: `cd labs/m02l01/m02l01-03/starter`
+2. Read `producer.py`.
+3. Edit `producer.py` and check it: `python3 -m py_compile producer.py`.
+4. Check it from the repository root: `./check m02l01-03`.
 
 ## How to check
 
-**Read along.** It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed.
+`./check m02l01-03` copies `starter/` into a scratch directory and runs `python3 -m py_compile producer.py` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-There is nothing to check: `./check m02l01-03` says so and moves on.
+**Read along, with a syntax check.** Running it needs Docker and the Kafka broker containers the course starts, which the lab sandbox does not have, so the site shows it with its recorded output.
+
+This is a checker lab: it checks that the Python program compiles (`python3 -m py_compile`), without running it. The site shows the checker's report without grading; `./check` passes when the checker finds no errors.
 
 ---
 

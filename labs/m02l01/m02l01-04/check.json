@@ -2,9 +2,9 @@
   "lab": "m02l01-04",
   "lesson": "m02l01",
   "title": "Send ten records and read the offsets",
-  "mode": "read-along",
-  "runner": null,
-  "command": null,
+  "mode": "checker",
+  "runner": "bash-syntax",
+  "command": "bash -n run.sh",
   "main": "run.sh",
   "files": [
     "Dockerfile",
@@ -16,6 +16,8 @@
   "stdin": null,
   "expected": null,
   "grading": null,
-  "requires": [],
-  "note": "The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only."
+  "requires": [
+    "bash"
+  ],
+  "note": null
 }

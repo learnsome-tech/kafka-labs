@@ -2,9 +2,9 @@
   "lab": "m06l03-03",
   "lesson": "m06l03",
   "title": "Insert a product row and then update it",
-  "mode": "read-along",
-  "runner": null,
-  "command": null,
+  "mode": "checker",
+  "runner": "bash-syntax",
+  "command": "bash -n session.sh",
   "main": "session.sh",
   "files": [
     "run.sh",
@@ -14,6 +14,8 @@
   "stdin": null,
   "expected": null,
   "grading": null,
-  "requires": [],
-  "note": "The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only."
+  "requires": [
+    "bash"
+  ],
+  "note": null
 }

@@ -8,10 +8,10 @@ Module 1: The Log: Topics, Partitions And Offsets · lesson 1.1 · Free · [Open
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m01l01-02](m01l01-02/) | Start a network and broker | Read along |
-| [m01l01-03](m01l01-03/) | Create a topic and produce three records | Read along |
-| [m01l01-04](m01l01-04/) | A second reader sees the same records | Read along |
-| [m01l01-06](m01l01-06/) | Remove the broker and network | Read along |
+| [m01l01-02](m01l01-02/) | Start a network and broker | Checker |
+| [m01l01-03](m01l01-03/) | Create a topic and produce three records | Checker |
+| [m01l01-04](m01l01-04/) | A second reader sees the same records | Checker |
+| [m01l01-06](m01l01-06/) | Remove the broker and network | Checker |
 
 ## Exercises
 

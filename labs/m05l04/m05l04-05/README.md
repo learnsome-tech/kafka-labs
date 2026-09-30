@@ -1,7 +1,7 @@
 # m05l04-05 · V-two producer: adds a currency field to every record
 
 **Lesson:** [Evolving An Event Without Breaking Consumers](https://learnsome.tech/learn/kafka-course/m05l04) (lesson 5.4, module 5: Schemas, Serialisation And Evolution) · Pro  
-**Check:** Read along
+**Check:** Checker
 
 ## Goal
 
@@ -21,19 +21,18 @@ In the lesson: The v-two producer sends two more records. These records include 
 
 ## Steps
 
-1. Read `starter/v2_producer.py` alongside the lesson.
-2. On a machine that has what it needs, the lesson ran it with:
-
-   ```sh
-   bash setup.sh >/dev/null 2>&1
-   docker run --rm --network m05l04-net -v "$PWD:/app" m05l04-client python v2_producer.py
-   ```
+1. Go to the starter: `cd labs/m05l04/m05l04-05/starter`
+2. Read `v2_producer.py`.
+3. Edit `v2_producer.py` and check it: `python3 -m py_compile v2_producer.py`.
+4. Check it from the repository root: `./check m05l04-05`.
 
 ## How to check
 
-**Read along.** It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed.
+`./check m05l04-05` copies `starter/` into a scratch directory and runs `python3 -m py_compile v2_producer.py` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-There is nothing to check: `./check m05l04-05` says so and moves on.
+**Read along, with a syntax check.** Running it needs Docker and the Kafka broker containers the course starts, which the lab sandbox does not have, so the site shows it with its recorded output.
+
+This is a checker lab: it checks that the Python program compiles (`python3 -m py_compile`), without running it. The site shows the checker's report without grading; `./check` passes when the checker finds no errors.
 
 ---
 

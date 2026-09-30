@@ -8,11 +8,11 @@ Module 6: Event-Driven: Outbox, CDC, Compaction · lesson 6.5 · Pro · [Open th
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m06l05-02](m06l05-02/) | Start the broker and create the orders topic | Read along |
-| [m06l05-03](m06l05-03/) | Produce six orders across three customers | Read along |
-| [m06l05-04](m06l05-04/) | Fold the stream into per-customer totals | Read along |
-| [m06l05-06](m06l05-06/) | Rebuild the view from offset zero with a new group | Read along |
-| [m06l05-08](m06l05-08/) | Remove the broker and network | Read along |
+| [m06l05-02](m06l05-02/) | Start the broker and create the orders topic | Checker |
+| [m06l05-03](m06l05-03/) | Produce six orders across three customers | Checker |
+| [m06l05-04](m06l05-04/) | Fold the stream into per-customer totals | Checker |
+| [m06l05-06](m06l05-06/) | Rebuild the view from offset zero with a new group | Checker |
+| [m06l05-08](m06l05-08/) | Remove the broker and network | Checker |
 
 ## Exercises
 

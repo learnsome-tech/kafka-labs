@@ -2,9 +2,9 @@
   "lab": "m05l03-03",
   "lesson": "m05l03",
   "title": "Register v-one schema and set BACKWARD compatibility",
-  "mode": "read-along",
-  "runner": null,
-  "command": null,
+  "mode": "checker",
+  "runner": "bash-syntax",
+  "command": "bash -n register_v1.sh",
   "main": "register_v1.sh",
   "files": [
     "register_v1.sh",
@@ -14,6 +14,8 @@
   "stdin": null,
   "expected": null,
   "grading": null,
-  "requires": [],
-  "note": "It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed."
+  "requires": [
+    "bash"
+  ],
+  "note": null
 }
