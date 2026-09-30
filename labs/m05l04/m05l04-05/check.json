@@ -1,0 +1,22 @@
+{
+  "lab": "m05l04-05",
+  "lesson": "m05l04",
+  "title": "V-two producer: adds a currency field to every record",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "v2_producer.py",
+  "files": [
+    "Dockerfile",
+    "run.sh",
+    "setup.sh",
+    "v1_consumer.py",
+    "v1_producer.py",
+    "v2_producer.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed."
+}

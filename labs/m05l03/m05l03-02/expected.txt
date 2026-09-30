@@ -1,2 +1,0 @@
-TOPIC          STATUS
-m05l03-events  OK

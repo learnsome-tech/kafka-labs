@@ -1,0 +1,21 @@
+{
+  "lab": "m06l04-05",
+  "lesson": "m06l04",
+  "title": "Fold the log into a key-value table in Python",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "fold_prices.py",
+  "files": [
+    "Dockerfile",
+    "fold_prices.py",
+    "produce_prices.py",
+    "run.sh",
+    "setup.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed."
+}

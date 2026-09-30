@@ -1,4 +1,0 @@
-TOPIC        STATUS
-m05l01-json  OK
-TOPIC          STATUS
-m05l01-binary  OK

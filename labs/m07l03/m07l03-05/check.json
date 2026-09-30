@@ -1,0 +1,21 @@
+{
+  "lab": "m07l03-05",
+  "lesson": "m07l03",
+  "title": "Stop two brokers: acks-all producer is rejected",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "fail.py",
+  "files": [
+    "Dockerfile",
+    "fail.py",
+    "run.sh",
+    "setup.sh",
+    "start-m07l03.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

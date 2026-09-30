@@ -1,4 +1,0 @@
-SUBJECT              VERSION  ID    TYPE
-m05l03-events-value  1        1     JSON
-SUBJECT              LEVEL     ERROR
-m05l03-events-value  BACKWARD  

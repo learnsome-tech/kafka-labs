@@ -1,4 +1,0 @@
-CREATE TABLE
-...
- m06l03_slot
-(1 row)

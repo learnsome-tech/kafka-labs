@@ -1,8 +1,0 @@
-payment-0
-payment-1
-payment-2
-payment-0
-payment-1
-payment-2
-m02l05-broker
-m02l05-net

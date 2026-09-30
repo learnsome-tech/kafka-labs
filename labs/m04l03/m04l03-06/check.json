@@ -1,0 +1,22 @@
+{
+  "lab": "m04l03-06",
+  "lesson": "m04l03",
+  "title": "Aborted transaction: read-committed sees nothing",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "abort.py",
+  "files": [
+    "Dockerfile",
+    "abort.py",
+    "commit.py",
+    "reader.py",
+    "run.sh",
+    "setup.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed."
+}

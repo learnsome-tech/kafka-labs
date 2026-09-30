@@ -1,0 +1,19 @@
+{
+  "lab": "m06l03-04",
+  "lesson": "m06l03",
+  "title": "Read the change stream from the replication slot",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "cdc.sh",
+  "files": [
+    "cdc.sh",
+    "run.sh",
+    "setup.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed."
+}

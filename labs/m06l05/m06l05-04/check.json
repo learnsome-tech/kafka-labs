@@ -1,0 +1,21 @@
+{
+  "lab": "m06l05-04",
+  "lesson": "m06l05",
+  "title": "Fold the stream into per-customer totals",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "totals.py",
+  "files": [
+    "Dockerfile",
+    "produce_orders.py",
+    "run.sh",
+    "setup.sh",
+    "totals.py"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed."
+}

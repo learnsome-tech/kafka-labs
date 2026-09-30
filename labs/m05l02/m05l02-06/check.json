@@ -1,0 +1,19 @@
+{
+  "lab": "m05l02-06",
+  "lesson": "m05l02",
+  "title": "Schema identifiers and the Confluent wire format",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "schema-identifiers-and-the-confluent-wire-fo.txt",
+  "files": [
+    "register.sh",
+    "schema-identifiers-and-the-confluent-wire-fo.txt",
+    "setup.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

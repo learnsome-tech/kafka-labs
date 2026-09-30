@@ -1,0 +1,21 @@
+{
+  "lab": "m02l03-03",
+  "lesson": "m02l03",
+  "title": "Demonstrate all three ack levels",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "acks.py",
+  "files": [
+    "Dockerfile",
+    "acks.py",
+    "run.sh",
+    "setup.sh",
+    "start.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed."
+}

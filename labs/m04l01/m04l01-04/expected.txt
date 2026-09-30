@@ -1,1 +1,0 @@
-produced: 3 events, 6 records (each sent twice)

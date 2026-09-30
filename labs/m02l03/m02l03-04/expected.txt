@@ -1,3 +1,0 @@
-acks zero: sent without waiting for any response
-acks one: partition 0 offset 0
-acks all: partition 0 offset 0

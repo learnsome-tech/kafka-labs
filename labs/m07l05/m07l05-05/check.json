@@ -1,0 +1,22 @@
+{
+  "lab": "m07l05-05",
+  "lesson": "m07l05",
+  "title": "Remove the cluster",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "session.sh",
+  "files": [
+    "Dockerfile",
+    "decide.py",
+    "run.sh",
+    "session.sh",
+    "setup.sh",
+    "show-cost.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed."
+}

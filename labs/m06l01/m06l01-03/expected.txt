@@ -1,2 +1,0 @@
-row inserted into orders
-error: kafka unreachable - event not published

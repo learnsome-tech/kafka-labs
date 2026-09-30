@@ -1,0 +1,20 @@
+{
+  "lab": "m05l03-04",
+  "lesson": "m05l03",
+  "title": "Attempt to register an incompatible schema change",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "register_bad.sh",
+  "files": [
+    "register_bad.sh",
+    "register_v1.sh",
+    "run.sh",
+    "setup.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

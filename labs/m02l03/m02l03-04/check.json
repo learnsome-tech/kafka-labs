@@ -1,0 +1,21 @@
+{
+  "lab": "m02l03-04",
+  "lesson": "m02l03",
+  "title": "Run the acks comparison",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "run.sh",
+  "files": [
+    "Dockerfile",
+    "acks.py",
+    "run.sh",
+    "setup.sh",
+    "start.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only."
+}

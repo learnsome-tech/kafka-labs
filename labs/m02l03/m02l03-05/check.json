@@ -1,0 +1,22 @@
+{
+  "lab": "m02l03-05",
+  "lesson": "m02l03",
+  "title": "Set min-insync-replicas and describe the partition",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "alter.sh",
+  "files": [
+    "Dockerfile",
+    "acks.py",
+    "alter.sh",
+    "run.sh",
+    "setup.sh",
+    "start.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed."
+}

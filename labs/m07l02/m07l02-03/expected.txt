@@ -1,4 +1,0 @@
-...
-partition 0 replicas [0, 1, 2] in-sync [0, 1, 2]
-partition 1 replicas [0, 1, 2] in-sync [0, 1, 2]
-partition 2 replicas [0, 1, 2] in-sync [0, 1, 2]

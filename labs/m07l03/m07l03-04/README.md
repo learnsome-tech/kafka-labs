@@ -1,0 +1,41 @@
+# m07l03-04 · Restart the stopped broker and verify rejoining
+
+**Lesson:** [Losing A Broker](https://learnsome.tech/learn/kafka-course/m07l03) (lesson 7.3, module 7: Operating A Cluster) · Pro  
+**Check:** Read along
+
+## Goal
+
+You can stop a broker, confirm a new leader is elected and the topic stays available, restart the broker and verify it rejoins, and explain why two broker failures block acks-all writes.
+
+In the lesson: Use docker start to restart the stopped container. Start reuses the existing container and its data directory intact, so the broker rejoins with the same identifier it had before. Docker run would create a fresh container and a new data directory, joining as a brand new node with a higher identifier and no stored partition data. Sleep eight seconds to let the broker replay the records it missed. Check cluster info: all three appear in the broker table. The ISR re-expands as the broker catches up with the leader log, restoring full redundancy to every partition without any manual intervention.
+
+## Files
+
+- [`starter/run.sh`](starter/run.sh): the command the lesson ran
+- [`starter/session.sh`](starter/session.sh): the listing from the lesson
+- [`starter/setup.sh`](starter/setup.sh)
+- [`starter/start-m07l03.sh`](starter/start-m07l03.sh)
+- [`check.json`](check.json): how `./check` runs and checks this lab
+
+## Steps
+
+1. Read `starter/session.sh` alongside the lesson.
+2. On a machine that has what it needs, the lesson ran it with:
+
+   ```sh
+   bash setup.sh >/dev/null 2>&1
+   docker start m07l03-b3
+   sleep 8
+   B="docker exec m07l03-b1"
+   $B rpk cluster info
+   ```
+
+## How to check
+
+**Read along.** It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed.
+
+There is nothing to check: `./check m07l03-04` says so and moves on.
+
+---
+
+[Open the lesson on LearnSome.tech](https://learnsome.tech/learn/kafka-course/m07l03) · [All labs of this lesson](../README.md) · [Course README](../../../README.md)

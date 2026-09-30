@@ -1,5 +1,0 @@
-TOPIC           STATUS
-m04l05-orders   OK
-m04l05-retry-1  OK
-m04l05-retry-2  OK
-m04l05-dlq      OK

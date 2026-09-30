@@ -1,0 +1,23 @@
+{
+  "lab": "m02l05-06",
+  "lesson": "m02l05",
+  "title": "Read the duplicate topic to confirm, then clean up",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "session.sh",
+  "files": [
+    "Dockerfile",
+    "idemp.py",
+    "run.sh",
+    "send-twice.py",
+    "session.sh",
+    "setup.sh",
+    "start.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It needs Docker (or another container engine), which the lab sandbox does not have. Run it on a machine with Docker installed."
+}

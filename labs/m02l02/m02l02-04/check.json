@@ -1,0 +1,21 @@
+{
+  "lab": "m02l02-04",
+  "lesson": "m02l02",
+  "title": "Send six interleaved records and see routing",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "run.sh",
+  "files": [
+    "Dockerfile",
+    "producer.py",
+    "run.sh",
+    "setup.sh",
+    "start.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only."
+}

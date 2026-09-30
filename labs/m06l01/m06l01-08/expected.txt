@@ -1,3 +1,0 @@
-m06l01-broker
-m06l01-db
-m06l01-net

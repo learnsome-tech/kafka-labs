@@ -1,5 +1,0 @@
-SUBJECT              VERSION  ID    TYPE
-m05l03-events-value  2        2     JSON
-SUBJECT              VERSION  ID    TYPE  ERROR
-m05l03-events-value  1        1     JSON  
-m05l03-events-value  2        2     JSON  

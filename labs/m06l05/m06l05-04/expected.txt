@@ -1,3 +1,0 @@
-cust-a: 210
-cust-b: 130
-cust-c: 200

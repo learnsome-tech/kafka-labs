@@ -1,2 +1,0 @@
-SUBJECT              VERSION  ID    TYPE
-m05l02-orders-value  1        1     JSON

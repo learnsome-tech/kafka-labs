@@ -1,6 +1,0 @@
-order-1 {"id":1,"item":"widget"}
-order-2 {"id":2,"item":"gadget"}
-...
- 1 | order-1 | t
- 2 | order-2 | t
-(2 rows)

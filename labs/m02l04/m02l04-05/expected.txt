@@ -1,1 +1,0 @@
-batched: sent ten records with gzip compression

@@ -1,2 +1,0 @@
-id=1 amount=10
-id=2 amount=20
